@@ -1,0 +1,4 @@
+redis : 
+  password : 'n0hyyu066aq55bgs'
+  port : 25061
+  host : 'omnea-redis-do-user-5042914-0.db.ondigitalocean.com'

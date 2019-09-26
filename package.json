@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:develop": "tsc-watch --onSuccess 'node .'",
+    "start": "tsc index.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/omnea/redis-test/issues"
   },
-  "homepage": "https://github.com/omnea/redis-test#readme"
+  "homepage": "https://github.com/omnea/redis-test#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "rsmq": "^0.11.0",
+    "tsc-watch": "^4.0.0",
+    "typescript": "^3.6.3"
+  }
 }
